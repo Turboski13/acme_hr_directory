@@ -14,7 +14,7 @@ const createEmployee = async(employeeName, departmentId) => {
   }
 }
 
-const getPets = async() => {
+const getEmployees = async() => {
   try {
     const { rows } = await client.query(`
       SELECT * FROM employees;
