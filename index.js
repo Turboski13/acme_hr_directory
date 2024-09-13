@@ -6,7 +6,7 @@ const { getEmployees, createEmployee } = require('./db/employees.js');
 app.use(express.json())
 
 app.get('/', (req, res, next) => {
-  res.send('Hello World!');
+  res.send('Employee and Department DB!');
 })
 
 // Log the requests as they come in
